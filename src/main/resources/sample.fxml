@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <TextField fx:id="inputTextField" layoutX="23.0" layoutY="63.0" promptText="Enter string to hash" />
+      <Button fx:id="createHashButton" layoutX="23.0" layoutY="275.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Create hash" />
+      <TextArea fx:id="outputTextArea" layoutX="281.0" layoutY="25.0" prefHeight="304.0" prefWidth="369.0" promptText="Hashed string" />
+      <ListView fx:id="choiceList" layoutX="22.0" layoutY="100.0" prefHeight="142.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
